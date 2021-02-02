@@ -1,0 +1,7 @@
+C:\Users\elife\OneDrive\Masaüstü\tcKimlikNo\tcKimlikNo\obj\Debug\tcKimlikNo.csprojAssemblyReference.cache
+C:\Users\elife\OneDrive\Masaüstü\tcKimlikNo\tcKimlikNo\obj\Debug\tcKimlikNo.csproj.CoreCompileInputs.cache
+C:\Users\elife\OneDrive\Masaüstü\tcKimlikNo\tcKimlikNo\bin\Debug\tcKimlikNo.exe.config
+C:\Users\elife\OneDrive\Masaüstü\tcKimlikNo\tcKimlikNo\bin\Debug\tcKimlikNo.exe
+C:\Users\elife\OneDrive\Masaüstü\tcKimlikNo\tcKimlikNo\bin\Debug\tcKimlikNo.pdb
+C:\Users\elife\OneDrive\Masaüstü\tcKimlikNo\tcKimlikNo\obj\Debug\tcKimlikNo.exe
+C:\Users\elife\OneDrive\Masaüstü\tcKimlikNo\tcKimlikNo\obj\Debug\tcKimlikNo.pdb
