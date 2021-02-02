@@ -20,8 +20,12 @@ namespace tcKimlikNo
             Console.Write("Dogum yılını giriniz :");
             int yil =Convert.ToInt32(Console.ReadLine());
             long tc = 32806281796;
+
+
             string a = tcNo.Substring(0, 5);
             string b = tcNo.Substring(5, 4);
+
+
             KPSPublicSoapClient sorgula = new KPSPublicSoapClient();
             sorgula.TCKimlikNoDogrula(tc,ad,soyad,yil);            
             int toplam = 0; int toplam2 = 0; int toplam3 = 0;
@@ -33,7 +37,6 @@ namespace tcKimlikNo
                     {
                         toplam = toplam + Convert.ToInt32(tcNo[0]) + Convert.ToInt32(tcNo[1]) + Convert.ToInt32(tcNo[2]) + Convert.ToInt32(tcNo[3]) + Convert.ToInt32(tcNo[4]);
                         toplam = toplam + 3;
-                       
 
                     }
                     if (tcNo.Substring(5, 4) != "")
