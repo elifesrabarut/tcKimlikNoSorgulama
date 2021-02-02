@@ -12,13 +12,13 @@ namespace tcKimlikNo
         static void Main(string[] args)
         {
             Console.Write("Tc Kimlik Noyu Giriniz:");
-             string tcNo = Console.ReadLine().ToUpper();
+            string tcNo = Console.ReadLine().ToUpper();
             Console.Write("Adınızı Giriniz:");
             string ad = Console.ReadLine().ToUpper();
             Console.Write("Soyadınızı Giriniz :");
             string soyad = Console.ReadLine().ToUpper();
             Console.Write("Dogum yılını giriniz :");
-            int yil =Convert.ToInt32(Console.ReadLine());
+            int yil = Convert.ToInt32(Console.ReadLine());
             long tc = 32806281796;
 
 
@@ -27,7 +27,7 @@ namespace tcKimlikNo
 
 
             KPSPublicSoapClient sorgula = new KPSPublicSoapClient();
-            sorgula.TCKimlikNoDogrula(tc,ad,soyad,yil);            
+            sorgula.TCKimlikNoDogrula(tc, ad, soyad, yil);
             int toplam = 0; int toplam2 = 0; int toplam3 = 0;
             if (tcNo.Length == 11)
             {
@@ -56,18 +56,18 @@ namespace tcKimlikNo
                         int sayi2 = Convert.ToInt32(kucuksayi);
                         toplam3 = sayi2 - 4;
                     }
-              }
-                    Console.WriteLine(toplam.ToString()+toplam2.ToString()+toplam3.ToString());
                 }
-            else
-            {
-                Console.WriteLine("11 haneli tc giriniz");
+                Console.WriteLine(toplam.ToString() + toplam2.ToString() + toplam3.ToString());
             }
+             else
+                {
+                        Console.WriteLine("11 haneli tc giriniz");
+                 }
 
-                    Console.ReadKey();
-            }
-
+            Console.ReadKey();
         }
+
     }
+}
 
 
